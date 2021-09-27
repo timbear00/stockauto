@@ -30,7 +30,7 @@ if rqStatus != 0:
 offer = objStockMst.GetHeaderValue(16)  #매도호가
 print("매도호가", offer)
  
-myToken = "xoxb-2148803419396-2166465567280-TWmTgUrWJ7T9gdcd7L6tbF2R"
+myToken = "" # your Token
  
 post_message(myToken,"#stock","삼성전가 현재가 : " + str(offer))
  
